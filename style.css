@@ -1,0 +1,74 @@
+
+body{background-color: black}
+.nav-link:hover{transition: All ease-in-out; transform: scale(1.1); border-bottom: #ddd;}
+
+#myskill{display: flex;}
+    .skills{ width:340px;  margin:7% auto ;
+        padding:20px; animation:up 1s linear; color:whitesmoke;}
+    @keyframes up{
+        from{
+            transform:translateY(30px); opacity:0;}
+        to{
+            transform:translateY(0);opacity:1;}
+    }
+
+    .skills h1{
+        text-align:center ; text-shadow:2px 2px 3px #ddd;
+    }
+    .skills li{
+        list-style:none ; margin:20px 0;
+    }
+    h2{  text-shadow:2px 2px 3px #ddd; }
+    .skills .bar{
+        display:block ; overflow:hidden ; height:10px; width:100%;
+        border:1px solid #ccc; background:#fff; border-radius:5px;margin:5px 0;
+    }
+    .bar span{ float:left; height:100%; background:#1876f3; border-radius:5px;}
+    .html{ width:90%;animation:html 2s linear;}
+    .css{width:85%;animation:css 2s linear ; }
+    .javascript{ width:60%; animation:java 2s linear;}
+    .bootstrap{width:65%; animation:boot 2s linear ; }
+    
+    @keyframes html{
+        0%{ width:0;} 100%{ width:90%;}
+    }
+    @keyframes css{
+        0%{ width:0;} 100%{ width:85%;}
+    }
+    @keyframes java{
+        0%{width:0;}  100%{width:60%;}
+    }
+    @keyframes boot{
+        0%{ width:0;} 100%{width:65%; }
+    }
+
+
+    #home{ border:2px solid; height: 70vh; background-color: black;}
+#home img {width:25vw; height: 70%; border:2px solid whitesmoke; justify-content: center; }
+img:hover {transition: All ease-in-out; transform: scale(1.1); }
+#text{ color: antiquewhite; font-size: large; font-weight: bold;}
+#back{background-color:black ;}
+#btn{text-decoration: none; border: 2px solid blue; padding: 10px; border-radius:25px; background-color: black; }
+#btn:hover{transition: All ease-in-out; transform: scale(1.2); }
+
+#upward{color:blue; margin-left: 90vw;position: fixed;cursor: pointer ; font-size: large;}
+
+#project{color: aliceblue; margin-top:-30px;}
+
+/*contact me*/
+
+#feed{display:flex; justify-content: center;align-items: center; background-color: rgb(43, 37, 37); color: aliceblue;}
+
+form input{width:60vw; padding: 10px; outline: none; background-color: black; color:antiquewhite;} 
+
+form textarea{width:60vw; padding: 10px; outline: none;resize: none; height: 120px; background-color: black; color: aliceblue; } 
+
+form button {text-decoration: none; border: 2px solid blue; padding: 10px; border-radius:10px; width: 50px;}
+button:hover{transition: All ease-in-out; transform: scale(1.2); }
+
+
+#icon{display: flex; background-color: rgb(43, 37, 37); justify-content: center;align-items: center;}
+
+.fa{font-size:xx-large; text-decoration:none; border-radius: 50%;
+    margin: 20px; color: aliceblue; width: 50px; padding: 10px; }
+.fa:hover{transition: All ease-in-out; transform: scale(1.2); }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{display:flex; justify-content: center; align-items:center; 
+background-color:black; }
+
+#box{border:2px solid white; 
+height:250px; width:250px; margin-top: 150px;
+background-color: blue;
+box-shadow: 10px 10px 10px pink;
+animation: container 3s ;
+}
+@keyframes container{
+50%{ opacity:0.9;  background-color:blue; border-radius:50%;  }
+
+}
+
+#text1{color:white; text-align: center; margin-top:90px;font-size: 
+55px;
+animation: text1 5s }
+@keyframes text1{
+0%{ color:white; }
+50%{font-size: 40px; color:white;}
+}
+
+#text2{ text-align: center;margin-top:-40px; color:blue; 
+animation: text2 5s 3s alternate;}
+@keyframes text2{
+50%{ color:white;}
+}
+
+#text3{ text-align: center;margin-top:-40px; color:blue; 
+animation: text3 10s 7s alternate; opacity:0;}
+@keyframes text3{
+50%{ color:white;opacity:0.9;}
+}
+
+#text4{margin:10px 0 0 85px; cursor:pointer;
+animation: text4 50s 0s; color:white; 
+}
+#text4 a{text-decoration:none; color:white;}
+@keyframes text4{
+0%{  font-size:0px; opacity:0;cursor:pointer; }
+50%{  font-size:20px; opacity:0.9; cursor:pointer;}
+}
+
+</style>
+<body>
+    <div id="box">
+        <h1 id="text1">OmkarG.</h1>
+        <h3 id="text2">Web Developer</h3>
+        <h3 id="text3">Baramti,Pune</h3>
+        <h2 id="text4"> <a href="Home.html">Click Here </a></button>
+        </div>
+        
+</body>
+</html>
